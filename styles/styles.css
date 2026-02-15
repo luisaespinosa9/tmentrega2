@@ -1,46 +1,54 @@
+/* Fondo general */
 html {
+  background-color: #f8c8dc; /* baby pink */
   font-size: 10px;
-  font-family: 'Playfair Display', serif;
 }
 
-h1 {
-  font-size: 60px;
-  text-align: center;
-}
-
-h2 {
-  font-size: 30px;
-  text-align: center;
-}
-
-p, li {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
-}
-
-html {
-  background-color: #8b5d6c;
-}
-
+/* Tarjeta del diario */
 body {
   width: 600px;
-  margin: 0 auto;
-  background-color: #f8c8dc;
-  color: #3a3a3a;
+  margin: 60px auto;
+  background-color: #fff0f5; /* rosa muy suave */
+  color: #6f5b63;
   font-family: "Saira", sans-serif;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
+  padding: 30px 40px;
+  border-radius: 25px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
+/* Título principal */
 h1 {
   margin: 0;
   padding: 20px 0;
-  color: #ff006e;
-  text-shadow: 3px 3px 1px black;
+  font-family: 'Playfair Display', serif;
+  font-size: 5.6rem;
+  text-align: center;
+  color: #8b5d6c;
 }
 
+/* Subtítulo */
+h2 {
+  font-size: 2.6rem;
+  text-align: center;
+  color: #a4506c;
+}
+
+/* Texto */
+p, li {
+  font-size: 1.6rem;
+  line-height: 2;
+  letter-spacing: 0.5px;
+}
+
+/* Imagen */
 img {
   display: block;
-  margin: 0 auto;
+  margin: 25px auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Lista */
+ul {
+  padding-left: 20px;
 }
