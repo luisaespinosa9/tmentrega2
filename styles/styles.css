@@ -8,46 +8,64 @@ html {
 body {
   width: 600px;
   margin: 60px auto;
-  background-color: #fff0f5;
+  background-color: #fff0f5; /* rosa suave */
   color: #6f5b63;
   font-family: "Saira", sans-serif;
-  padding: 30px 40px;
-  border-radius: 25px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  padding: 35px 45px;
+  border-radius: 28px;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.18);
 }
 
-/* Título */
+/* Título principal */
 h1 {
-  margin: 0;
-  padding: 20px 0;
-  font-family: 'Playfair Display', serif;
-  font-size: 5.6rem;
+  font-family: 'Dancing Script', cursive;
+  font-size: 6.4rem;
   text-align: center;
   color: #8b5d6c;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
 }
 
-/* Subtítulo */
-h2 {
+/* Emoji del título */
+h1 span {
+  font-size: 4rem;
+  vertical-align: middle predominante;
+}
+
+/* Detalle aesthetic debajo del título */
+h1::after {
+  content: "♡";
+  display: block;
   font-size: 2.6rem;
+  color: #c98fa6;
+  margin-top: 10px;
+}
+
+/* Subtítulos */
+h2 {
+  font-size: 2.8rem;
   text-align: center;
   color: #a4506c;
+  margin-top: 45px;
 }
 
 /* Texto */
 p, li {
   font-size: 1.6rem;
   line-height: 2;
+  letter-spacing: 0.5px;
+}
+
+/* Lista */
+ul {
+  padding-left: 25px;
 }
 
 /* Imagen */
 img {
   display: block;
-  margin: 25px auto;
-  border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-}
-
-/* Lista */
-ul {
-  padding-left: 20px;
+  margin: 30px auto;
+  max-width: 100%;
+  border-radius: 22px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.25);
 }
