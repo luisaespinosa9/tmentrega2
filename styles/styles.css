@@ -1,6 +1,6 @@
 /* Fondo general */
 html {
-  background-color: #f8c8dc; /* baby pink */
+  background-color: #fff75ae; /* baby pink */
   font-size: 10px;
 }
 
@@ -8,7 +8,7 @@ html {
 body {
   width: 600px;
   margin: 60px auto;
-  background-color: #fff0f5; /* rosa suave */
+  background-color: #ffcef3; /* rosa suave */
   color: #6f5b63;
   font-family: "Saira", sans-serif;
   padding: 35px 45px;
@@ -21,7 +21,7 @@ h1 {
   font-family: 'Dancing Script', cursive;
   font-size: 6.4rem;
   text-align: center;
-  color: #8b5d6c;
+  color: #d10099;
   margin-bottom: 15px;
   letter-spacing: 1px;
 }
@@ -32,7 +32,6 @@ h1 span {
   vertical-align: middle predominante;
 }
 
-/* Detalle aesthetic debajo del título */
 h1::after {
   content: "♡";
   display: block;
