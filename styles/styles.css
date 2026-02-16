@@ -1,6 +1,6 @@
 /* Fondo general */
 html {
-  background-color: #fff75ae; /* baby pink */
+  background-color: #ff75ae; /* baby pink */
   font-size: 10px;
 }
 
@@ -8,7 +8,7 @@ html {
 body {
   width: 30vw;
   margin: 60px auto;
-  background-color: #ffcef3; /* rosa suave */
+  background-color: #ffc0ef; /* rosa suave */
   color: #6f5b63;
   font-family: "Saira", sans-serif;
   padding: 35px 45px;
